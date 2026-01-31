@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* test */
+.test-bg {
+  background-color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #020617; /* slate-950 */
+  
+}
+
+
