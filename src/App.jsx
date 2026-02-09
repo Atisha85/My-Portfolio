@@ -131,7 +131,7 @@ export default function App() {
 
            {/* Resume Button */}
            <a
-            href="/RESUME NEW.pdf"
+            href="/RESUME.pdf"
             target="_blank"
             className="mt-8 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md transition"
            >
@@ -185,7 +185,7 @@ export default function App() {
             </div>
 
             <div className="bg-slate-800 p-6 rounded-xl hover:scale-105 transition">
-              React.js • Tailwind CSS
+              React.js • Tailwind CSS • Node.js • Express.js
             </div>
 
             <div className="bg-slate-800 p-6 rounded-xl hover:scale-105 transition">
@@ -246,33 +246,35 @@ export default function App() {
                {/* Project 2 */}
                <div className="bg-slate-800 p-6 rounded-xl hover:-translate-y-2 transition shadow-md">
                   <h3 className="text-xl font-semibold text-cyan-400 mb-3">
-                    To-Do List Web Application
+                    Interactive Calculator
                  </h3>
                  <p className="text-slate-400 mb-4">
-                    A task management application with add, delete, and mark-as-complete
-                    functionality. Integrated local storage for data persistence and
-                    enhanced UI for better usability.
+                   Built a dynamic calculator using JavaScript for 
+                   real time computations.
+                   Implemented error handling and responsive UI.
                  </p>
                  <div className="flex gap-4 text-sm">
                     <span className="bg-slate-700 px-3 py-1 rounded-full">JavaScript</span>
                     <span className="bg-slate-700 px-3 py-1 rounded-full">HTML</span>
                     <span className="bg-slate-700 px-3 py-1 rounded-full">CSS</span>
+                    <span className="bg-slate-700 px-3 py-1 rounded-full">DOM Manipulation</span>
                  </div>
                </div>
 
                {/* Project 3 */}
                <div className="bg-slate-800 p-6 rounded-xl hover:-translate-y-2 transition shadow-md">
                  <h3 className="text-xl font-semibold text-cyan-400 mb-3">
-                   React API Data Fetching App
+                   Expense Tracker Web App
                  </h3>
                  <p className="text-slate-400 mb-4">
-                   A React application that fetches and displays data from external APIs
-                   using Axios, focusing on clean component structure and efficient state
-                   management.
+                   Developed full stack MERN application for tracking expenses.
+                   Implemented user authentication and MongoDB integration.
                  </p>
                  <div className="flex gap-4 text-sm">
                    <span className="bg-slate-700 px-3 py-1 rounded-full">React</span>
-                   <span className="bg-slate-700 px-3 py-1 rounded-full">Axios</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">Node.js</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">Express.js</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">MongoDB</span>
                  </div>
                </div>
 
@@ -289,6 +291,24 @@ export default function App() {
                  <div className="flex gap-4 text-sm">
                    <span className="bg-slate-700 px-3 py-1 rounded-full">Android</span>
                    <span className="bg-slate-700 px-3 py-1 rounded-full">Java</span>
+                 </div>
+               </div>
+               {/* Project 5 */}
+               <div className="bg-slate-800 p-6 rounded-xl hover:-translate-y-2 transition shadow-md">
+                 <h3 className="text-xl font-semibold text-cyan-400 mb-3">
+                   Blog Web Application
+                 </h3>
+                 <p className="text-slate-400 mb-4">
+                   Developed a full stack blog platform allowing users to create,edit and 
+                   delete blog posts with secure user authentication.
+                   Implemented database integration to store and manage blog content
+                   efficiently.
+                 </p>
+                 <div className="flex gap-4 text-sm">
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">React</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">Node.js</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">Express.js</span>
+                   <span className="bg-slate-700 px-3 py-1 rounded-full">MongoDB</span>
                  </div>
                </div>
 
